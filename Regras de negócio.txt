@@ -1,0 +1,43 @@
+Usuários e permissões (funções administrativas):
+- Admin: possui permissão em todas as áreas do sistema;
+- Operador: pode listar, criar, editar, deletar empresas, licenças, funcionários, orgãos responsáveis, produtos e atividade do sistema;
+- Consulta: pode utilizar a API para visualizar os produtos do sistema e seu próprio perfil de usuário.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Telas (interação do usuário com os dados do sistema).
+Divididas em três focos: login, usuários, empresas, funcionários, licenças, produtos, atividades e órgãos responsáveis:
+
+- Login:
+     Tela de login do usuário;
+     Tela de "Esqueci minha senha";
+
+- Usuários:
+	Tela de lista de usuários com botão de editar, deletar e criar novo usuário;
+	Tela de formulário para criação e edição do usuário;
+	
+- Funções:
+	Tela de lista de funções que o sistema possui.
+	Tela de formulário para criação e edição da função;
+	
+- Empresas:
+	Tela de lista de empresa que o sistema possui;
+	Tela de formulário para criação e edição da empresa e do endereço da empresa;
+
+- Funcionários:
+	Tela de lista dos funcionários das empresa cadastradas;
+	Tela de formulário para criação e edição do funcionário e do endereço do funcionário;
+
+- Licenças:
+	Tela de lista de licenças que a empresa possui;
+	Tela de formulário para criação e edição das licenças da empresa;
+
+- Órgãos responsáveis:
+	Tela de lista de órgãos responsáveis que o sistema possui;
+	Tela de formulário para criação e edição de órgão responsável e suas informações;
+	Tela de formulário para criação, edição e visualização do produto.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Estrutura do JSON da API
+{}

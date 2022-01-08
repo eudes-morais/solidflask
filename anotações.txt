@@ -1,0 +1,16 @@
+1) Para a instalação do FLASK_SQLALCHEMY, deve instalar os pacotes abaixo dentro do ambiente virtual:
+
+# pip install python3-dev, libpq5 e psycopg2-binary
+
+2) O método RELOAD() a partir da versão 3.4 do pyhton, encontra-se no pacote IMPORTLIB (que deve ser importado)
+
+import importlib
+importlib.reload(app)
+
+(extraído de https://stackoverflow.com/questions/961162/reloading-module-giving-nameerror-name-reload-is-not-defined)
+
+3) Para se evitar algumas mensagens de erro, deve instalar os pacotes abaixo NAS VERSÕES ESPECIFICADAS:
+
+# pip install flask==1.1.4
+# pip install Flask-Migrate==2.1.1
+

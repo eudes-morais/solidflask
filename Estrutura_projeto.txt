@@ -1,0 +1,31 @@
+livro_flask
+│   app.py
+│   config.py
+│   migrate.py
+│   run.py
+│
+└───admin
+│	Admin.py
+│	Views.py
+│
+└───model
+│	Category.py
+│	Product.py
+│	User.py
+|	Role.py
+│
+└───controller
+│	Email.py
+│	Product.py
+│	User.py
+│
+└───static
+│	└───css
+│		login.css
+│		home.css
+|
+└───templates
+│	login.html
+│	home_admin.html
+│	new_password.html
+│	recovery.html

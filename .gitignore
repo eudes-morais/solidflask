@@ -1,0 +1,6 @@
+/migrations/
+/solidvenv/
+/model/__pycache__/
+/admin/__pycache__/
+/controller/__pycache__/
+/__pycache__/
